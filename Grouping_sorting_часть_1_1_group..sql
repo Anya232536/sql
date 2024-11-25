@@ -12,3 +12,5 @@ group BY users.city,
              WHEN users.age >= 50 THEN 'old'
          END
 ORDER BY count(*), users.city;   
+
+## группировка по городу и возрастному интервалу 
